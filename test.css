@@ -52,12 +52,45 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-/* height: 200px;
-padding: 120px; */
-
-width: 50%;
-margin: auto;
+gap: 40px;
+margin: 80px;
+padding: 20px;
+text-align: center;
 }
+.ula{
+    font-size: 35px;
+    color:rgb(6, 70, 102)
+}
+.old{
+    font-size: 30px;
+    align-items: center;
+    line-height: 2.0;
+}
+.oli{
+    font-size: 20px;
+}
+.third{
+    display: flex;
+ 
+    justify-content: space-evenly;
+}
+.two{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+}
+.image1{
+    height: 470px;
+    width: 370px;
+    border-radius: 17px;
+}
+.image1:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    filter: sepia(30%);
+
+}
+
 @media screen and (min-width: 300px) and (max-width: 768px){
     .first{
         padding:10px;
