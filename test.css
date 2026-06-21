@@ -14,9 +14,9 @@ body{
     background-position: center center;
     height: 90vh;
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .relax{
@@ -29,6 +29,34 @@ font-size: 48px;
     color: white;
     font-size: 24px;
     /* padding-top: 10px; */
+}
+.bb {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.cta-btn1 {
+    background:rgb(6, 70, 102);
+    padding: 15px;
+    border:  none;
+    width: 200px;
+}
+.cta-btn1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.cta-btn2 {
+    background: #fff;
+    padding: 15px;
+    width: 200px;
+    border: none;
+}
+.cta-btn2 a {
+   color: rgb(6, 70, 102);
+    font-weight: 700;
+    text-decoration: none;
 }
 .design{
     padding: 80px;
@@ -54,7 +82,7 @@ button{
     justify-content: center;
 gap: 40px;
 margin: 80px;
-padding: 20px;
+/* padding: 20px; */
 text-align: center;
 }
 .ula{
@@ -74,11 +102,11 @@ text-align: center;
  
     justify-content: space-evenly;
 }
-.two{
+/* .two{
     display:flex;
     flex-direction: column;
     width: auto;
-}
+} */
 .image1{
     height: 470px;
     width: 370px;
@@ -90,17 +118,116 @@ text-align: center;
     filter: sepia(30%);
 
 }
+.fourth{
+    background: url("IMAGES/beachsand.jpg");
+    margin-top: 50px;
+    
+}
+.dd{
+    display: flex;
+     justify-content: space-evenly;
+    
+}
+.dine{
+    display: flex;
+    justify-content: center;
+    font-weight: 400px;
+    font-size: 45px;
+    padding: 30px;
+}
+.sea{
+    height:480px;
+    width:460px;
+    padding:30px;
+}
+
+.at{
+    font-size: 26px;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+.hello a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.drink{
+    display: flex;
+}
+.dr{
+    height:480px;
+    width:460px;
+    padding:20px;
+    
+}
+
+.exp{
+    font-size: 35px;
+    
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px;
+    gap: 30px;
+    background: rgb(235, 235, 235);
+}
+
+.adb{
+    font-size: 35px;
+    
+}
+.hhh{
+    padding: 23px;
+}
+
 
 @media screen and (min-width: 300px) and (max-width: 768px){
     .first{
-        padding:10px;
-        height: 60vh;
+        height: auto;
+    }
+    .design {
+        padding: 20px;
+    }
+    .new {
+        font-size: 18px;
+        margin-top: 15px;
     }
 .relax{
     font-size:20px;
 }
-.bb{
-display: flex;
-
-}
+ .bb {
+    display: flex;
+    gap: 15px;
+ }
+  .cta-btn1, .cta-btn2 {
+    width: 140px
+  }
+  .second{
+    margin: 15px;
+   gap: 15px;
+  }
+  .old, .ula,{
+    font-size: 21px;
+  }
+  .old{
+    line-height: 1.0;
+  }
+  .oli{
+    font-size:16px ;
+  }
 }
