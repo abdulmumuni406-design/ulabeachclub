@@ -156,6 +156,7 @@ text-align: center;
 }
 .drink{
     display: flex;
+    align-items: center;
 }
 .dr{
     height:480px;
@@ -199,6 +200,7 @@ footer{
 @media screen and (min-width: 300px) and (max-width: 768px){
     .first{
         height: auto;
+        padding: 30px;
     }
     .design {
         padding: 20px;
@@ -221,7 +223,7 @@ footer{
     margin: 15px;
    gap: 15px;
   }
-  .old, .ula,{
+  .old, .ula{
     font-size: 21px;
   }
   .old{
@@ -230,4 +232,36 @@ footer{
   .oli{
     font-size:16px ;
   }
+  .third{
+    flex-wrap: wrap;
+   gap:30px;
+  }
+  .image1:hover{
+    transform: scale(1.0);
+}
+.dd, .drink{
+    flex-wrap:wrap;
+    
+}
+footer{
+    flex-wrap: wrap;
+}
+.sea{
+    height:280px;
+    width:260px;
+    padding:15px; 
+}
+.dr{
+    height:280px;
+    width: 400px;
+    padding:10px;
+    
+   
+     
+}
+.at, .exp{
+    padding: 27px;
+    font-size: 20px;
+    text-align: center;
+}
 }
