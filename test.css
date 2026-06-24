@@ -203,7 +203,17 @@ footer{
 .hhh{
     padding: 23px;
 }
-@media screen and (min-width: 769px) and (max-width: 900px){
+@media screen and (min-width: 835px) and (max-width: 1115px){
+     
+    .image1{
+    height: 470px;
+    width: 250px;
+    border-radius: 17px;
+    object-fit: cover;
+
+}
+}
+@media screen and (min-width: 769px) and (max-width: 830px){
     .third{
         flex-wrap: wrap;
         padding: 10px;
