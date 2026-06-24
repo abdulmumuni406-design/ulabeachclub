@@ -206,7 +206,10 @@ footer{
 @media screen and (min-width: 834px) and (max-width: 1280px){
      
     .image1{
-   display: none;
+   height: 320px;
+    width: 200px;
+    border-radius: 17px;
+    object-fit: cover;
 
 }
 }
