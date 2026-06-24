@@ -108,12 +108,12 @@ text-align: center;
     width: auto;
 } */
 .image1{
-    height: 470px;
-    width: 370px;
+    height: 300px;
+    width: 300px;
     border-radius: 17px;
 }
 .image1:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s ease;
     filter: sepia(30%);
 
@@ -203,11 +203,20 @@ footer{
 .hhh{
     padding: 23px;
 }
-@media screen and (min-width: 769px) and (max-width: 1080px){
+@media screen and (min-width: 769px) and (max-width: 900px){
+    .third{
+        flex-wrap: wrap;
+        padding: 10px;
+
+    }
+    .one, .two{
+        width: 50%;
+    }
     .image1{
     height: 470px;
-    width: 340px;
+    width: 380px;
     border-radius: 17px;
+
 }
 }
 
